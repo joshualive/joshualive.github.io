@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="https://use.typekit.net/shn3tym.css">
+    <link rel="icon" type="image/png" href="images/codefav.png">
+    <meta name="description" content="Joshua Miller | Full-Stack Web Developer - Portfolio" />
+    <title>Joshua Miller | Portfolio</title>
+</head>
+<body class="d-flex flex-column h-100">
+    <div class="container">
+
+    <!-- Begin Navbar -->
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light pb-5">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/codelogo.png" alt="Code Logo" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mr-2" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-primary" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    </header>
+    
+    <!-- Form functionality NYI, will set up after learning how -->
+    <main>
+    <div class="row mt-5">
+        <h1 class="mx-auto text-center mt-5 mb-5">Tell me a little about your project.</h1>
+    </div>
+        <form>
+            <div class="row mx-auto">
+              <div class="col-md-2"></div>
+              <div class="col-md-4 mb-4">
+                <input type="text" class="form-control pb" placeholder="Name">
+              </div>
+              <div class="col-md-4  mb-4">
+                <input type="text" class="form-control" placeholder="Email">
+              </div>
+            </div>
+        </form>
+        <form>
+            <div class="row mx-auto">
+              <div class="col-md-2"></div>
+              <div class="col-md-4 mb-4">
+                <select id="inputState" class="form-control">
+                  <option selected disabled>Project Type...</option>
+                  <option>Web Application</option>
+                  <option>Responsive Website</option>
+                </select>
+              </div>
+              <div class="col-md-4  mb-4">
+                <select id="inputState" class="form-control">
+                    <option selected disabled>Budget...</option>
+                    <option>$500-$2000</option>
+                    <option>$2000-$5000</option>
+                    <option>$5000+</option>
+                  </select>
+              </div>
+            </div>
+          </form>
+          <form class="pb-4">
+            <div class="row mx-auto">
+              <div class="col-md-2"></div>
+              <div class="col-md-8">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Project details..."></textarea>
+              </div>
+            </div>
+        </form>
+        <div class="row d-flex justify-content-center">
+        <a class="btn btn-primary mb-5 btn-lg" href="#">Submit</a>
+        </div>
+    </div>
+    </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto">
+    <div class="blue-span">
+        <div class="container pt-5 pb-5">
+            <div class="row mt-3 mb-2">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <a href="https://github.com/joshualive" target="_blank" class="mr-5 ml-3">
+                        <img src="images/social/github.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/joshua-miller-1107/" target="_blank" class="mr-5">
+                        <img src="images/social/linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://twitter.com/JoshCMV" target="_blank" class="mr-5">
+                        <img src="images/social/twitter.png" alt="Twitter">
+                    </a>
+                    <a href="mailto:joshuamiller1107@gmail.com">
+                        <img src="images/social/email.png" alt="Email">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>   
+
+    <!-- Bootstrap JS dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
