@@ -10309,4 +10309,8 @@ a.text-dark:hover, a.text-dark:focus {
   color: rgba(255, 255, 255, 0.356);
 }
 
+.carousel-name {
+  font-size: 1.25rem;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
