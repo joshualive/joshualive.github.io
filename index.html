@@ -12,55 +12,55 @@
 </head>
 <body>
     <div class="container">
+        <!-- Begin Navbar -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/codelogo.png" alt="Code Logo" loading="lazy">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-2" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+            
+            <!-- Section 1 -->
+            <div class="row mt-5 mb-5">
+                <div class="col-md-1"></div>
 
-    <!-- Begin Navbar -->
-    <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">
-            <img src="images/codelogo.png" alt="Code Logo" loading="lazy">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link mr-2" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="btn btn-primary" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
+                <!-- Text is left aligned until it drops below md screen size, then centers -->
+                <div class="col-md-4 my-auto text-md-left text-center">
+                    <h1>Hi, I'm Josh</h1>
+                    <p>
+                        I'm studying full-stack web development at Carleton University. I currently work at a fintech startup (SaaS) in Operations. 
+                        <p>
+                            This site will update as I complete class projects, so stay tuned!
+                        </p>
+                    </p>
+                </div>
+
+                <div class="col-md-1"></div>
+
+                <div class="col-md-5">
+                    <img src="images/Josh.png" class="img-fluid mx-auto d-block" width="350" alt="Josh smiling.">
+                </div>   
+            </div>
+        </header>
+    </div>
     
-    <!-- Section 1 -->
-    <div class="row mt-5 mb-5">
-        <div class="col-md-1"></div>
-
-        <!-- Text is left aligned until it drops below md screen size, then centers -->
-        <div class="col-md-4 my-auto text-md-left text-center">
-            <h1>Hi, I'm Josh</h1>
-            <p>
-                I'm studying full-stack web development at Carleton University. I currently work at a fintech startup (SaaS) in Operations. 
-                <p>
-                This site will update as I complete class projects, so stay tuned!
-                </p>
-            </p>
-        </div>
-
-        <div class="col-md-1"></div>
-
-        <div class="col-md-5">
-            <img src="images/Josh.png" class="img-fluid mx-auto d-block" width="350" alt="Josh smiling.">
-        </div>   
-    </div>
-    </div>
-    </header>
 
     <!-- Begin Main -->
     <!-- Section 2 -->
@@ -69,7 +69,7 @@
     <div class="container pt-5 pb-5">
         <div class="row text-center">
             <div class="col-md-4 mb-3">
-                <img src="images/tools.png" class="pb-4" width="75px" alt="Tools icon.">
+                <img src="images/tools.png" class="pb-4" width="75" alt="Tools icon.">
                 <h2 class="blue-bg pb-2">Tools</h2>
                     <ul class="list-unstyled large-list">
                         <li>GitHub</li>
@@ -81,7 +81,7 @@
                     </ul>
             </div>
             <div class="col-md-4 mb-3">
-                <img src="images/frontend.png" class="pb-4" width="75px" alt="Frontend webpage icon.">
+                <img src="images/frontend.png" class="pb-4" width="75" alt="Frontend webpage icon.">
                 <h2 class="blue-bg pb-2">Frontend</h2>
                     <ul class="list-unstyled large-list">
                         <li>HTML</li>
@@ -93,7 +93,7 @@
                     </ul>
             </div>
             <div class="col-md-4 mb-3">
-                <img src="images/api.png" class="pb-4" width="75px" alt="Backend API icon.">
+                <img src="images/api.png" class="pb-4" width="75" alt="Backend API icon.">
                 <h2 class="blue-bg pb-2">Backend</h2>
                     <ul class="list-unstyled large-list">
                         <li>APIs</li>
@@ -166,7 +166,7 @@
             <div id="recommendationsCarousel" class="carousel slide mx-auto pb-3" data-ride="carousel" data-interval="10000">
                 <div class="carousel-inner">
                   <div class="carousel-item active text-center">
-                    <img class="d-block mx-auto mb-3" src="images/km.png" width="75px" height="75px" alt="Kadeem training staff on Google Chromebook">
+                    <img class="d-block mx-auto mb-3" src="images/km.png" width="75" height="75" alt="Kadeem training staff on Google Chromebook">
                     <p>
                         Big personality. Always looking to progress and improve himself. Josh definitely takes the initiative and is a go getter. Truly a great resource to have.
                     </p>
@@ -205,7 +205,7 @@
                 <h3 class="blue-bg mx-auto mb-4">Ready to start?</h3>
             </div>
             <div class="row d-flex justify-content-center pb-4">
-                <a href="contact.html"><button class="btn btn-light btn-lg" type="submit">Let's Connect</button></a>
+                <a href="contact.html" class="btn btn-light btn-lg">Let's Connect</a>
             </div>
             <div class="row mt-5 mb-2">
                 <div class="col-md-3"></div>
